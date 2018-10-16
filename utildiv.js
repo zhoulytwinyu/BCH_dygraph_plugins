@@ -56,7 +56,7 @@ Dygraph.Plugins.UtilDiv = (function() {
       this.shownDivs_.push(this.hover_);
       this.hover_.id=options.hover;
       this.hover_.style.cursor="default";
-      this.hover_.style.width="200px";
+      this.hover_.style.width="150px";
       this.hover_.style.overflow="hidden";
       this.hover_.style.position="fixed";
       this.hover_.style.zIndex=999;

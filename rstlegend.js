@@ -139,7 +139,7 @@ teE/gU0BOk2g09gUoNMEOo1NATpNoNMQUkqDlFVh69/npZTXNjfn5uaY7/tzWRtWTdkUrbWSUmaO
       case "BB":
         ret = `
           <div style="border-radius:3px; font-size:14px; background-color: ${this.boston_meadow};">
-            <p style="padding:0px;margin:0px;"><b>${record.RST}</b> <span class="pull-right">${date_obj.toLocaleString()}</span></p>
+            <p style="padding:0px;margin:0px;"><b>${record.RST}</b> <span class="pull-right" style="font-size:10px">${date_obj.toLocaleString()}</span></p>
             ${ECMO_Flow_line}
           </div>`;
         break;
@@ -148,7 +148,7 @@ teE/gU0BOk2g09gUoNMEOo1NATpNoNMQUkqDlFVh69/npZTXNjfn5uaY7/tzWRtWTdkUrbWSUmaO
       case "BIPAP":
         ret = `
           <div style="border-radius:3px; font-size:14px; background-color: ${this.boston_sky};">
-            <p style="padding:0px;margin:0px;"><b>${record.RST}</b> <span class="pull-right">${date_obj.toLocaleString()}</span></p>
+            <p style="padding:0px;margin:0px;"><b>${record.RST}</b> <span class="pull-right" style="font-size:10px">${date_obj.toLocaleString()}</span></p>
             ${ECMO_Flow_line}
           </div>`;
         break;
@@ -157,7 +157,7 @@ teE/gU0BOk2g09gUoNMEOo1NATpNoNMQUkqDlFVh69/npZTXNjfn5uaY7/tzWRtWTdkUrbWSUmaO
       case "VCV":
         ret = `
           <div style="border-radius:3px; font-size:14px; background-color: ${this.boston_morning};">
-            <p style="padding:0px;margin:0px;"><b>${record.RST}</b> <span class="pull-right">${date_obj.toLocaleString()}</span></p>
+            <p style="padding:0px;margin:0px;"><b>${record.RST}</b> <span class="pull-right" style="font-size:10px">${date_obj.toLocaleString()}</span></p>
             ${ECMO_Flow_line}
           </div>`;
         break;
@@ -165,14 +165,14 @@ teE/gU0BOk2g09gUoNMEOo1NATpNoNMQUkqDlFVh69/npZTXNjfn5uaY7/tzWRtWTdkUrbWSUmaO
       case "HFJV":
         ret = `
           <div style="border-radius:3px; font-size:14px; background-color: ${this.boston_pink};">
-            <p style="padding:0px;margin:0px;"><b>${record.RST}</b> <span class="pull-right">${date_obj.toLocaleString()}</span></p>
+            <p style="padding:0px;margin:0px;"><b>${record.RST}</b> <span class="pull-right" style="font-size:10px">${date_obj.toLocaleString()}</span></p>
             ${ECMO_Flow_line}
           </div>`;
         break;
       case "ECMO":
         ret = `
           <div style="border-radius:3px; font-size:14px; background-color: ${this.boston_red};">
-            <p style="padding:0px;margin:0px;"><b>${record.RST}</b> <span class="pull-right">${date_obj.toLocaleString()}</span></p>
+            <p style="padding:0px;margin:0px;"><b>${record.RST}</b> <span class="pull-right" style="font-size:10px">${date_obj.toLocaleString()}</span></p>
          </div>`;
         break;
       default:
